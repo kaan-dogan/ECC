@@ -1,47 +1,15 @@
 {
-  "name": "ecc",
-  "owner": {
-    "name": "Affaan Mustafa",
-    "email": "me@affaanmustafa.com"
-  },
-  "metadata": {
-    "description": "Harness-native ECC skills, hooks, rules, MCP conventions, and operator workflows"
-  },
+  "name": "ecc-safe",
+  "owner": { "name": "Kaan Dogan" },
+  "metadata": { "description": "A small, read-only ECC-derived review toolkit." },
   "plugins": [
     {
-      "name": "ecc",
+      "name": "ecc-safe",
       "source": "./",
-      "description": "Harness-native ECC operator layer - 68 agents, 284 skills, 94 legacy command shims, reusable hooks, rules, selective install profiles, and production-ready workflows for Claude Code, Codex, OpenCode, Cursor, and related agent harnesses",
-      "version": "2.2.0",
-      "author": {
-        "name": "Affaan Mustafa",
-        "email": "me@affaanmustafa.com"
-      },
-      "homepage": "https://ecc.tools",
-      "repository": "https://github.com/affaan-m/ECC",
+      "description": "Opt-in planning, research, review, security review, and evaluation design. No hooks, installers, MCP servers, background services, or persistent memory.",
+      "version": "0.1.0",
       "license": "MIT",
-      "keywords": [
-        "agents",
-        "skills",
-        "hooks",
-        "commands",
-        "tdd",
-        "code-review",
-        "security",
-        "best-practices"
-      ],
-      "category": "workflow",
-      "tags": [
-        "agents",
-        "skills",
-        "hooks",
-        "commands",
-        "tdd",
-        "code-review",
-        "security",
-        "best-practices"
-      ],
-      "strict": false
+      "category": "workflow"
     }
   ]
 }
