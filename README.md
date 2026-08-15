@@ -9,6 +9,7 @@ A deliberately small, opt-in fork of Everything Claude Code for Kaan's productio
 - `/safe-review` — review a diff without modifying it.
 - `/safe-security-review` — assess security risks without scanning, installing, or fixing anything.
 - `/safe-evaluation-design` — design regression and evaluation cases without creating or running tests.
+- `/safe-options-review` — compare realistic approaches using explicit decision criteria.
 
 ## What is deliberately excluded
 
