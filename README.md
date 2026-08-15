@@ -2,6 +2,8 @@
 
 A deliberately small, opt-in fork of Everything Claude Code for Kaan's production voice-agent and web-app work.
 
+The five core workflows are automatically selectable from plain-language requests. You do not need to remember command names. Selection only starts a read-only planning, research, review, options, or evaluation step; implementation still requires explicit approval.
+
 ## What is included
 
 - `/safe-plan` — create an implementation plan and wait for approval.
@@ -10,6 +12,8 @@ A deliberately small, opt-in fork of Everything Claude Code for Kaan's productio
 - `/safe-security-review` — assess security risks without scanning, installing, or fixing anything.
 - `/safe-evaluation-design` — design regression and evaluation cases without creating or running tests.
 - `/safe-options-review` — compare realistic approaches using explicit decision criteria.
+
+The accompanying skills auto-select Safe Plan, Safe Research, Safe Review, Safe Options Review, and Safe Evaluation Design. Safe Security Review remains manual-only.
 
 ## What is deliberately excluded
 

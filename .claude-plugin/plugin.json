@@ -4,5 +4,6 @@
   "description": "Opt-in, read-only planning and review workflows derived from ECC.",
   "author": { "name": "Kaan Dogan" },
   "license": "MIT",
-  "commands": ["./commands/"]
+  "commands": ["./commands/"],
+  "skills": ["./skills/"]
 }
